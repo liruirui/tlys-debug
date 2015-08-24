@@ -6,3 +6,7 @@
 .tr {
     float: right;
 }
+.index-content span{
+    display: inherit;
+    text-align: center;
+}
