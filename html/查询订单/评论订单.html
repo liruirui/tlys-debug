@@ -17,11 +17,34 @@
     </div>
 
     <div data-role="content">
-        <p>页面内容</p>
+        <ul data-role="listview">
+            <li data-icon="false"><a href="">
+                <img src="" alt="图片说明文字">
+
+                <p>有机西红柿，回归大自然的感觉，体验小时候的味道</p>
+
+                <p>5000份</p>
+            </a></li>
+            <li data-role="list-divider"></li>
+            <li data-icon="false"><a href="">
+                <p>评论：</p>
+                <img class="ui-li-icon" src="" alt="图***">
+            </a></li>
+            <li>
+                <p>长度在10-500字之间</p>
+
+                <p>写下购买体会或使用过程中带来的帮助等，可以为其他小伙伴提供参考~</p>
+            </li>
+        </ul>
     </div>
 
-    <div data-role="footer">
-        <h1>页面底部内容</h1>
+    <div data-role="footer" data-position="fixed">
+        <a class="disinherit" href="#popupYes" data-role="button" data-rel="popup">提交</a>
+    </div>
+    <!--弹出框-->
+    <div data-role="popup" id="popupYes" class="ui-corner" data-overlay-theme="b">
+        <p>评价成功</p>
+        <a href="查询订单.html" data-rel="back" data-role="button">确定</a> <!--有问题：弹出位置以及链接-->
     </div>
 </div>
 <!--/首页-->
