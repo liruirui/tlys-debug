@@ -10,3 +10,8 @@
     display: inherit;
     text-align: center;
 }
+.setting-content span{
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
