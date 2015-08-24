@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/jquery.mobile.css"/>
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+
+<div data-role="page">
+    <div data-role="header">
+        <h1>页面标题</h1>
+    </div>
+
+    <div data-role="content">
+        <!--用户图像占位，此后需要添加图片，且居中-->
+        <h3>用户头像</h3>
+        <form method="post" action="#">
+            <input type="tel" name="tel" id="tel" placeholder="手机号/账号">
+            <input type="text" name="tel-confirm" placeholder="密码"/>
+            <label><input type="radio" name="yes" id="yes"/>已阅读同意《服务协议》</label>
+            <button>登陆</button>
+            <!--此处需要居中-->
+            <a href="../普通用户注册/普通用户注册.html">没有账号？点此注册</a>
+        </form>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#" data-iconpos=bottom data-icon="plus">微信登陆</a></li>
+                <li><a href="#" data-iconpos="bottom" data-icon="plus">QQ登陆</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--/首页-->
+
+<script src="../../js/jquery-1.11.3.min.js"></script>
+<script src="../../js/jquery.mobile.js"></script>
+</body>
+</html>
