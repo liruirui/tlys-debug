@@ -20,6 +20,9 @@
 .disinb {
     display: inline-block !important;
 }
+.disinherit{
+    display: inherit !important;
+}
 .index-content span{
     display: inherit;
     text-align: center;
