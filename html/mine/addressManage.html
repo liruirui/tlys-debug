@@ -12,26 +12,27 @@
 <div data-role="page">
     <div data-role="header">
         <a data-role="button" data-rel="back" data-iconpos="notext" data-icon="carat-l"></a>
-        <h1>充值</h1>
+        <h1>地址管理</h1>
     </div>
 
     <div data-role="content">
         <ul data-role="listview">
             <li>
-                <a href="#">
-                    <img src="chrome.png">
-                    <h2>中信银行</h2>
-                    <p>尾号8888</p>
-                </a>
+                <span>马云</span><span>15909034920</span>
+                <p>浙江省杭州市阿里巴巴总部行政楼1502</p>
             </li>
-            <li data-role="list-divider"></li>
-            <li data-icon="false"><a href="">金额:<input type="text"></a></li>
+            <li>
+                <form action="" id="">
+                    <!--编辑，删除都需要图标支持，并且移动到右侧-->
+                    <input type="radio" name="defaultSite" id="defaultSite"><label for="defaultSite">设为默认地址<span>编辑</span><span>删除</span></label>
+                </form>
+            </li>
         </ul>
     </div>
 
-    <div data-role="footer">
-        <button>下一步</button>
-        <!--弹出提示框-->
+    <div data-role="footer" data-position="fixed">
+        <!--缺少一个加号-->
+        <a class="disinherit" href="newAddress.html" data-role="button" form="">新建地址</a>
     </div>
 </div>
 <!--/首页-->
