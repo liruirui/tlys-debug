@@ -6,6 +6,10 @@
 .tr {
     float: right;
 }
+
+.mg0 {
+    margin: 0 auto;
+}
 .index-content span{
     display: inherit;
     text-align: center;
