@@ -11,10 +11,11 @@
 
 <div data-role="page">
     <div data-role="header">
-        <a data-role="button" data-rel="back" data-iconpos="notext" data-icon="back"></a>
+        <a data-role="button" data-rel="back" data-iconpos="notext" data-icon="carat-l"></a>
 
-        <h1>页面标题</h1>
-        <!--有购物车图标需要添加-->
+        <h1>我的订单</h1>
+        <a href="../购物车/购物车.html" data-role="button" data-iconpos="notext" data-icon="alert"></a> <!--购物车图标-->
+
         <div data-role="navbar" data-iconpos="right">
             <ul>
                 <li><a href="#" data-icon="arrow-d">全部</a></li>
@@ -27,22 +28,21 @@
 
     <div data-role="content">
         <ul data-role="listview">
-            <li>
-                <a href="#">
+            <li data-iconpos="false">
                     订单号:123456789
                     <img src="fk.png">
                     <h2>有机西红柿，回归大自然的感觉，体验小时候的味道</h2>
                     <p>500g/份</p>
-                    <p><span>实付款: ¥36.00</span><span>评价</span></p>
-                </a>
+
+                <p><span>实付款: ¥36.00</span><a class="tr" href="发表评论.html">评价</a></p>
             </li>
-            <li>
-                <a href="#">
+            <li data-iconpos="false">
                     <img src="fk.png">
                     <h2>有机西红柿，回归大自然的感觉，体验小时候的味道</h2>
                     <p>500g/份</p>
-                    <p><span>实付款: ¥36.00</span><span>评价</span></p>
-                </a>
+
+                <p><span>实付款: ¥36.00</span><a class="tr" href="发表评论.html">评价</a></p>
+
             </li>
         </ul>
     </div>
