@@ -3323,8 +3323,8 @@ li.ui-block-e {
 [class*="ui-block-"] > .ui-radio,
 [class*="ui-block-"] > button.ui-btn-inline,
 [class*="ui-block-"] > button.ui-btn-icon-notext {
-    margin-right: .3125em;
-    margin-left: .3125em;
+/*    margin-right: .3125em;
+    margin-left: .3125em;*/
 }
 
 .ui-grid-a > .ui-block-a,
@@ -4297,8 +4297,8 @@ fieldset.ui-controlgroup {
 }
 
 .ui-select {
-    margin-top: .5em;
-    margin-bottom: .5em; /* no shorthand for margin because it would override margin-right for inline selects */
+  /*  margin-top: .5em;
+    margin-bottom: .5em;*/ /* no shorthand for margin because it would override margin-right for inline selects */
     position: relative;
 }
 

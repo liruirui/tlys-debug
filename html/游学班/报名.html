@@ -11,33 +11,30 @@
 
 <div data-role="page">
     <div data-role="header">
-        <a href="游学班详情.html" data-iconpos="notext"><img src="" /></a>
         <h1>报名</h1>
     </div>
 
-    <div data-role="content">
-        <form method="post" action="" id="sub">
-            <div data-role="fieldcontain">
-                <label for="fullname">姓名：</label>
-                <input type="text" name="fullname" id="fullname">
-                <fieldset data-role="controlgroup">
-                    <legend>请选择您的性别：</legend>
-                    <label for="male">男性</label>
-                    <input type="radio" name="gender" id="male" value="male">
-                    <label for="female">女性</label>
-                    <input type="radio" name="gender" id="female" value="female">
-                </fieldset>
-                <label for="phone">手机号：</label>
-                   <input type="text" name="phone" id="phone">
-                <label for="info">附言:</label>
-                        <textarea name="addinfo" id="info"></textarea>
-            </div>
+        <form data-role="content" method="post" action="" id="FTour">
+
+            <label for="fullname">姓名：</label><input type="text" name="fullname" id="fullname">
+
+            <fieldset data-role="controlgroup">
+                <legend>请选择您的性别：</legend>
+                <label for="male">男性</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">女性</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </fieldset>
+
+
+            <label for="phone">手机号：</label><input type="text" name="phone" id="phone">
+            <label for="info">附言:</label><textarea name="addinfo" id="info"></textarea>
+
 
         </form>
-    </div>
 
-    <div data-role="footer" >
-        <a href="确认报名.html" style="display: block"><button form="sub">报名</button></a>
+    <div data-role="footer" data-position="fixed">
+        <button form="FTour">报名</button>
     </div>
 </div>
 <!--/首页-->
