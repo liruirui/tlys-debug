@@ -10,9 +10,11 @@
 .mg0 {
     margin: 0 auto;
 }
-.pd0{
-    padding:0 !important;
+
+.pd0 {
+    padding: 0 !important;
 }
+
 .fix10 {
     position: fixed;
     top: 10px;
@@ -22,15 +24,23 @@
 .disinb {
     display: inline-block !important;
 }
-.disinherit{
+
+.disinherit {
     display: inherit !important;
 }
-.index-content span{
+
+.index-content span {
     display: inherit;
     text-align: center;
 }
-.setting-content span{
+
+.setting-content span {
     position: absolute;
     bottom: 25px;
     right: 20px;
+}
+.ui-icon-myicon:after {
+    background-image: url("index2.png");
+    background-size: 18px 18px;
+    border-radius: 0;
 }
