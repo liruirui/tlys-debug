@@ -39,8 +39,7 @@
     bottom: 25px;
     right: 20px;
 }
-.ui-icon-myicon:after {
-    background-image: url("index2.png");
-    background-size: 18px 18px;
-    border-radius: 0;
+.trans{
+    background-color: transparent!important;
+    border-color: transparent !important;
 }
