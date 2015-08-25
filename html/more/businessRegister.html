@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/normalize.css">
     <link rel="stylesheet" href="../../css/jquery.mobile.css"/>
+    <link rel="stylesheet" href="../../css/my-custom-theme.css"/>
+    <link rel="stylesheet" href="../../css/jquery.mobile.icons.min.css"/>
     <link rel="stylesheet" href="../../css/main.css">
 </head>
 <body>
@@ -22,7 +24,10 @@
         <label for="female">已阅读同意《服务协议》</label>
         <input type="radio" name="Agreement" id="female" value="female">
     </form>
-    <a href="verifyMessage.html" data-role="button" form="Fregister">下一步</a>
+
+    <div data-role="footer" data-position="fixed">
+        <a href="verifyMessage.html" data-role="button" class="disinherit">下一步</a>
+    </div>
 </div>
 <!--/首页-->
 
